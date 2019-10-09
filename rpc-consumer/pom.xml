@@ -12,11 +12,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
-			<groupId>com.scnx</groupId>
-			<artifactId>rpc-facade</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>com.alipay.sofa</groupId>
 			<artifactId>rpc-sofa-boot-starter</artifactId>
 		</dependency>

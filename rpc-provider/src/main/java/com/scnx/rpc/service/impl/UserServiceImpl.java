@@ -1,4 +1,4 @@
-package com.scnx.rpc.service;
+package com.scnx.rpc.service.impl;
 
 import com.scnx.rpc.service.UserService;
 

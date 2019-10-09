@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://sofastack.io/schema/sofaboot http://sofastack.io/schema/sofaboot.xsd"
 	default-autowire="byName">
 
-	<bean id="userService" class="com.scnx.rpc.service.UserServiceImpl" />
+	<bean id="userService" class="com.scnx.rpc.service.impl.UserServiceImpl" />
 	
 	<sofa:service ref="userService" interface="com.scnx.rpc.service.UserService" unique-id="userService01">
 		<sofa:binding.bolt />
